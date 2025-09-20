@@ -1,0 +1,11 @@
+Flask>=2.0
+pandas
+numpy
+joblib
+matplotlib
+scikit-learn
+xgboost
+imbalanced-learn
+tqdm
+shap
+gunicorn
