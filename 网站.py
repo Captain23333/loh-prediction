@@ -94,7 +94,7 @@ ord_categories = list(ordinal_options.values())
 oe = OrdinalEncoder(categories=ord_categories)
 
 # ====== 3) 加载模型 ======
-base_dir   = "loh-prediction/非标准化模型"
+base_dir   = "loh-prediction"
 model_path = os.path.join(base_dir, "非标准化模型", "XGBoost_model_nonstd.pkl")
 xgb        = joblib.load(model_path)
 
